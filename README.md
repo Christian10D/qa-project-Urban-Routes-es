@@ -27,11 +27,7 @@ Christian Daniel Palafox Adame, Grupo 19, Sprint 8
     # Chrome WebDriver: Controlador del navegador utilizado para la ejecución de pruebas.
 
 4.- Instrucciones para ejecutar las pruebas
-  Clonar el repositorio
-  git clone https://github.com/Christian10D/qa-project-Urban-Routes-es.git
-  Acceder al directorio del proyecto
-  cd qa-project-Urban-Routes-es
-  Instalar las dependencias necesarias
-  pip install -r requirements.txt
-  Ejecutar las pruebas
-  pytest TestUrbanRoutes.py
+  Clonar el repositorio: git clone https://github.com/Christian10D/qa-project-Urban-Routes-es.git
+  Acceder al directorio del proyecto: cd qa-project-Urban-Routes-es
+  Instalar las dependencias necesarias: pip install -r requirements.txt
+  Ejecutar las pruebas: pytest TestUrbanRoutes.py
