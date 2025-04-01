@@ -16,7 +16,7 @@ class TestUrbanRoutes:
     driver = None
     @classmethod
     def setup_class(cls):
-        # no lo modifiques, ya que necesitamos un registro adicional habilitado para recuperar el código de confirmación del teléfono
+        #no lo modifiques, ya que necesitamos un registro adicional habilitado para recuperar el código de confirmación del teléfono
         options = Options()
         options.set_capabilities("goog:loggingPrefs", {'performance': 'ALL'})
         cls.driver = webdriver.Chrome(service=Service(), options=options)
